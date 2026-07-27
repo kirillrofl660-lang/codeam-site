@@ -474,7 +474,7 @@
     width: 41px;
     height: 41px;
     border: 1px solid rgba(26, 43, 51, .28);
-    border-radius: 50%;
+    border-radius: 0;
     background: #b8d8e5;
     font: 500 11px/1.3 'DM Mono', monospace;
     letter-spacing: .08em;
@@ -637,7 +637,7 @@
   .service-tags li {
     padding: 7px 11px;
     border: 1px solid rgba(26, 43, 51, .22);
-    border-radius: 999px;
+    border-radius: 0;
     font-size: 11px;
     font-weight: 600;
   }
@@ -817,7 +817,7 @@
   .simple-form input, .simple-form textarea {
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 14px;
+    border-radius: 0;
     padding: 17px 18px;
     color: white;
     width: 100%;
@@ -1031,7 +1031,7 @@
     .cases-grid { gap: 64px; }
     .case-card--featured .case-visual,
     .case-visual { aspect-ratio: 4/3; }
-    .case-visual { margin-bottom: 22px; border-radius: 24px; }
+    .case-visual { margin-bottom: 22px; border-radius: 0; }
     .case-card h3 { font-size: 26px; }
     .case-card:not(.case-card--featured) h3 { font-size: 26px; }
     .case-code { font-size: 120px; }
@@ -1042,7 +1042,7 @@
     .contact-intro h2 { font-size: clamp(52px, 15vw, 68px); }
     .contact-intro > p { margin-top: 28px; font-size: 16px; }
     .contact-direct { margin-top: 36px; }
-    .contact-panel { padding: 22px 16px; border-radius: 22px; }
+    .contact-panel { padding: 22px 16px; border-radius: 0; }
     .contact-mascot {
       position: absolute;
       z-index: 3;
@@ -1054,7 +1054,7 @@
       transform: rotate(-5deg);
     }
     .form-row { grid-template-columns: 1fr; gap: 24px; }
-    .simple-form input, .simple-form textarea { padding: 17px 18px; border-radius: 16px; }
+    .simple-form input, .simple-form textarea { padding: 17px 18px; border-radius: 0; }
     .simple-form button { width: 100%; justify-content: center; }
   }
 

@@ -13,9 +13,9 @@
   --text-on-dark: #F0F4F5;
   --text-secondary: #566B78;
   
-  --radius-md: 20px;
-  --radius-lg: 32px;
-  --radius-pill: 999px;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-pill: 0;
   
   --space-unit: 8px;
   --space-8: 64px;
